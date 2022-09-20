@@ -8,6 +8,7 @@
 4. [Tools](#tools)
 5. [Version Control](#version-control---git)
 6. [Incremental Development](#incremental-development)
+7. [Tips](#tips)
 
 ### Intro
 
@@ -130,3 +131,23 @@ GIT Workflow
 - `git log`
 
 ### Incremental Development
+
+How to approach problem solving
+- List the steps in order to solve a problem. Not thinking about the syntax.
+- Step-by-step process:
+  - State the hypothesis
+  - Verify the hypothesis
+  - Make changes
+
+### Tips
+
+for-of returns the value, for-in returns the index.
+
+```javascript
+for (let x of y) {
+  x = value;
+}
+for (let x in y) {
+  x = index;
+}
+```
